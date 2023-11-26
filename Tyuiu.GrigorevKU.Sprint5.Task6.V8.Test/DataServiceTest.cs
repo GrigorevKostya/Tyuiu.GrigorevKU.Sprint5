@@ -26,4 +26,5 @@ namespace Tyuiu.GrigorevKU.Sprint5.Task6.V8.Test
             int res = ds.LoadFromDataFile(path);
             Assert.AreEqual(wait, res);
         }
+    }
 }

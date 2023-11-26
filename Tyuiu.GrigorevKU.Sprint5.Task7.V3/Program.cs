@@ -27,7 +27,7 @@ namespace Tyuiu.GrigorevKU.Sprint5.Task7.V3
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                             *");
             Console.WriteLine("********************************************************************************");
             string path = $@"C:\DataSprint5\InPutDataFileTask7V3.txt";
-            string pathSaveFile = $@"C:\DataSprint5\OutPutDataFileTask7V3.txt";
+            string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\OutPutDataFileTask7V3.txt";
             Console.WriteLine("Данные находятся в файле: " + path);
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                   *");
